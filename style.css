@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  filter: contrast(1.1) brightness(1.10);
+}
+
+.main-div{
+    /* background-color: palevioletred; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 250px;
+    padding: 20px;
+}
+
+.secon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+width: 150px;
+height: 200px;
+/* background-color: yellowgreen; */
+
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-clock{
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.scnd-div-frst-child{
+   background-color: rgba(0, 0, 0, 0.477);
+    width: 80%;
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin-top: 60px; */
+    padding: 20px;
+}
+
+
+
+.scnd-div-scnd-child{
+    /* background-color: rgb(211, 34, 211); */
+    width: 80%;
+    height: 40px;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgba(73, 7, 78, 0.719);
+}
+
+.scnd-div-scnd-child p{
+    margin-top: 10px;
+}
+
+.secon-div-1{
+    /* background-color: yellowgreen; */
+    /* display: flex;
+    justify-content:end;
+    align-items:end; */
+    margin-top: 70px;
+}
+.scnd-div-scnd-child-1{
+     width: 100px;
+    height: 40px;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+ background-color: rgba(3, 66, 39, 0.836);
+ margin-top: 25px;
+}
+
+
+.scnd-div-scnd-child-1 p{
+ padding: 7px;
+}
+
+
